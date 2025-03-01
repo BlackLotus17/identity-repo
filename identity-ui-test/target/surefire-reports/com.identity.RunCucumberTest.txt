@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: com.identity.RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 24.78 s <<< FAILURE! -- in com.identity.RunCucumberTest
+Confirm the page title - Assert the page title - Examples.Confirm the page title - Assert the page title - Examples - Example #1.2 -- Time elapsed: 6.432 s <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: iterable over ["BW57BOW", "£19.90", "£5.95"] in any order
+     but: Not matched: "BW57BOF"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.identity.CarRegCheckStepDefinitions.i_will_get_result_for(CarRegCheckStepDefinitions.java:43)
+	at ✽.I will get result for 1(classpath:com/identity/car_check_reg_number.feature:11)
+
